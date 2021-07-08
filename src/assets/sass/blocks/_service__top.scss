@@ -1,0 +1,32 @@
+.service__top{
+    .container{
+        .menu__service{
+            margin: 100px;
+            .box__service{
+
+                h1{
+                    &:before{
+                        content: '';
+                        width: 15px;
+                        height: 80px;
+                        background-color: #FE043C;
+                        position: absolute;
+                        left: 0;
+                    }
+
+                    font-family: 'p-m';
+                    font-size: 28px;
+                    color: $text;
+                    line-height: 52px;
+                    margin-left: 15px;
+                }
+
+                .text{
+                    font-family: 'p-r';
+                    font-size: 14px;
+                    color: #707070;
+                }
+            }
+        }
+    }
+}

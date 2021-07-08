@@ -1,0 +1,75 @@
+.prices{
+    background-color: #FFEDDE;
+
+    .container{
+        .menu{
+            margin-top: 50px;
+            .row{
+                .left{
+                    margin-top: 150px;
+                    &:before{
+                        content: '';
+                        width: 15px;
+                        height: 80px;
+                        background-color: #FE043C;
+                        position: absolute;
+                        left: 0;
+                        margin-right: 15px;
+                    }
+
+                    p{
+                        font-family: 'p-m';
+                        color: $text;
+                        font-size: 20px;
+                        margin-left: 15px;
+                    }
+
+                    .text{
+                        font-family: 'p-r';
+                        font-size: 14px;
+                        color: #707070;
+                        margin-left: 15px;
+                    }
+
+                    .btn{
+                        display: flex;
+                        button{
+                            width: 178px;
+                            height: 49px;
+                            border-radius: 10px;
+                            display: flex;
+                            border: 0;
+                            background-color: #000;
+                            padding: 10px;
+                            margin: 10px;
+
+                           .rit{
+
+                                p{
+                                    font-family: 'p-r';
+                                    font-size: 12px;
+                                    color: #fff;
+                                }
+
+                                h5{
+                                    font-family: 'p-m';
+                                    font-size: 14px;
+                                    text-transform: capitalize;
+                                    color: #fff;
+                                }
+                                
+                           }
+                        }
+                    }
+                }
+
+                .right{
+                    .price{
+                        position: absolute;
+                        right: 70px;
+                    }
+                }
+            }
+        }
+    }
+}

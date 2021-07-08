@@ -1,0 +1,119 @@
+.advice{
+    background-image: url(../img/body.png);
+    width: 280px;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 200px;
+
+
+    img{
+        position: absolute;
+        right: 0;
+        margin-top: -510px;
+    }
+
+    .container{
+
+        .menu__advice{
+            background-color: #fff;
+            width: 917px;
+            height: 470px;
+            margin-left: 215px;
+            // justify-content: center;
+            // margin: auto;
+
+            // .setka{
+            //     img{
+            //         position: absolute;
+            //         right: 10%;
+                    
+            //     }
+            // }
+
+            .bar__advice{
+
+                text-align: center;
+                
+                h1{
+                    font-family: 'p-m';
+                    font-size: 20px;
+                    color: #2E266F ;
+
+                } 
+                &::before{
+                    content: '';
+                    display: inline-block;
+                    width: 230px;
+                    height: 15px;
+                    background-color: #FE043C;
+                    margin: 100px 0 30px 0;
+                }
+
+                .in{
+                    display: flex;
+                    background-color: #fff;
+                    margin: 40px 200px;
+                    input{
+                        width: 434px;
+                        height: 90px;
+                        padding-left: 20px;
+                        border: 0;
+                        outline: 0;
+                    }
+            
+                    button{
+                        width: 100px;
+                        height: 52px;
+                        background-color: #FE043C;
+                        color: #fff;
+                        border: 0;
+                        font-size: 20px;
+                        margin: 10px;
+                    }
+                }
+
+            }
+
+            .bar__menu{
+                display: flex;
+                margin: auto;
+                justify-content: center;
+                .bottom_ad{
+                    padding: 20px;
+                    a{
+
+                        font-family: 'p-r';
+                        font-size: 16px;
+                        color: $text;
+                        text-decoration: none;
+
+                        &::before{
+                            content: '';
+                            display: inline-block;
+                            width: 10px;
+                            height: 10px;
+                            background-color: #FE043C;
+                            border-radius: 0 0 20px 20px;
+                            margin-right: 10px;
+                        }
+
+                    }
+
+                    p{
+                        font-family: 'p-r';
+                        font-size: 16px;
+                        color: $text;
+                        opacity: 0.7;
+                    }
+
+                    
+                }
+
+            }
+
+        }
+
+    }
+
+}

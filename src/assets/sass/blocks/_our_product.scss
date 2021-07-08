@@ -1,0 +1,62 @@
+.our_product{
+    .container{
+        .top{
+            text-align: center;
+            margin-top: 60px;
+            h1{
+                font-family: 'p-m';
+                font-size: 28px;
+                color: $text;
+            }
+
+            .text{
+                font-family: 'p-r';
+                font-size: 14px;
+                color: #707070;
+                text-transform: capitalize;
+            }
+
+        }
+
+        .body{
+
+            .body_box{
+                margin-top: 50px;
+
+                .img-responsive{
+                    width: 100%;
+                    height: 250px;
+                }
+
+                .box__our{
+                    background-color: #fff;
+                    border-radius: 0 0 20px 20px;
+                    padding: 30px;
+    
+                    .top{
+                        display: flex;
+                        justify-content: space-between;
+                        p{
+                            font-family: 'p-m';
+                            font-size: 18px;
+                            color: $text;
+                        }
+    
+                        .num{
+                            font-family: 'p-b';
+                            font-size: 16px;
+                            color: #FE043C;
+                        }
+                    }
+    
+                    .bottom{
+                        font-family: 'p-r';
+                        font-size: 16px;
+                        color: #707070;
+                        text-transform: capitalize;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+.choice{
+    .container{
+        .menu{
+            margin-top: 50px;
+            
+            .box__item{
+
+                
+                .text{
+                    font-family: 'p-r';
+                    font-size: 34px;
+                    color: $text;
+                    padding-left: 20px;
+                    &:before{
+                        content: '';
+                        width: 15px;
+                        height: 80px;
+                        background-color: #FE043C;
+                        position: absolute;
+                        left: 0;
+                        margin-top: 15px;
+                    }
+                }
+
+                p{
+                    font-family: 'p-r';
+                    font-size: 12px;
+                    color: #70707070;
+                }
+            }
+        }
+    }
+}

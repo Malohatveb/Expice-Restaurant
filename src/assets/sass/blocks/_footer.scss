@@ -1,0 +1,82 @@
+.footer{
+    background-image: url(../img/Group88.png);
+    height: 300px;
+
+
+    img{
+        position: absolute;
+    }
+
+    .container{
+        max-width: 964px;
+        margin: auto;
+        
+        .menu{
+
+            .bar__foot{
+                text-align: center;
+
+                .title{
+                    font-family: 'p-m';
+                    font-size: 20px;
+                    color: $text;
+                    padding: 180px 0px 30px 0px;
+        
+                }
+        
+                .text{
+                    font-family: 'p-r';
+                    font-size: 14px;
+                    color: #707070;
+                    padding-bottom: 20px;
+                }
+    
+                .input{
+                    border-radius: 30px;    
+                    margin-bottom: 60px;
+                    input{
+                        width: 590px;
+                        height: 70px;
+                        padding-left: 20px;
+                        border: 0;
+                        outline: 0;
+                        margin: 10px;
+                    }
+            
+                    button{
+                        width: 75px;
+                        height: 72px;
+                        background-color: #FE043C;
+                        color: #fff;
+                        border: 0;
+                        border-radius: 50%;
+                        img{
+                            margin: -10px;
+                        }
+                    }
+                }
+                
+    
+                ul{
+                    display: flex;
+                    right: 0;
+                    position: absolute;
+                    li{
+                        list-style-type: none;
+                        padding: 20px;
+    
+                        a{
+                            text-decoration: none;
+                            color: #707070;
+                            font-family: 'p-r';
+                            font-size: 16px;
+                        }
+                    }
+                }
+
+            }
+
+        }
+
+    }
+}

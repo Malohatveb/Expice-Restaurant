@@ -1,0 +1,40 @@
+@import 'grid';
+
+body ,*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FFF5EC;
+}
+$text:#2E266F;
+
+@font-face {
+    font-family: 'p-r';
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'p-b';
+    src: url(../fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'p-m';
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+
+@import 'blocks/header';
+@import 'blocks/neckpart';
+@import 'blocks/choice';
+@import 'blocks/slider';
+@import 'blocks/advice';
+@import 'blocks/service__top';
+@import 'blocks/service';
+@import 'blocks/our_product';
+@import 'blocks/prices';
+@import 'blocks/footer';
+
+@import 'blocks/media';
